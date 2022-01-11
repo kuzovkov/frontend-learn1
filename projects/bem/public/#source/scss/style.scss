@@ -175,3 +175,67 @@ body{
 	padding-top: 14px;
 
 }
+
+.parthers {
+	min-height: 387px;
+	background-image: url('../../img/bg-parthers.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	//margin-top: 0;
+	border-top: 1px solid rgb(243,243,243,1.0);
+
+	&__header {
+		margin: 100px auto;
+		display: block;
+
+	}
+
+	&__title {
+		font-family: Lato;
+		font-size: 30px;
+		color: #fff;
+		text-transform: none;
+		letter-spacing: 1.82px;
+		font-weight: 300;
+		&:after{
+			content: none;
+		}
+	}
+
+	&__logo {
+		width: 645px;
+		margin: 75px auto;
+		//border: 1px solid green;
+		min-height: 65px;
+		display: flex;
+	}
+
+	&__logo-item {
+		flex: 0 0 25.0%;
+	}
+
+	.logo-item1 {
+		background-image: url('../../img/logo2.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.logo-item2 {
+		background-image: url('../../img/archiq.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.logo-item3 {
+		background-image: url('../../img/thomson.png');
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
+	.logo-item4 {
+		background-image: url('../../img/alex.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+}
+

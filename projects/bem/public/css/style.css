@@ -249,3 +249,60 @@ body {
   text-align: center;
   padding-top: 14px;
 }
+
+.parthers {
+  min-height: 387px;
+  background-image: url("../../img/bg-parthers.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-top: 1px solid #f3f3f3;
+}
+.parthers__header {
+  margin: 100px auto;
+  display: block;
+}
+.parthers__title {
+  font-family: Lato;
+  font-size: 30px;
+  color: #fff;
+  text-transform: none;
+  letter-spacing: 1.82px;
+  font-weight: 300;
+}
+.parthers__title:after {
+  content: none;
+}
+.parthers__logo {
+  width: 645px;
+  margin: 75px auto;
+  min-height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.parthers__logo-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+.parthers .logo-item1 {
+  background-image: url("../../img/logo2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.parthers .logo-item2 {
+  background-image: url("../../img/archiq.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.parthers .logo-item3 {
+  background-image: url("../../img/thomson.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.parthers .logo-item4 {
+  background-image: url("../../img/alex.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

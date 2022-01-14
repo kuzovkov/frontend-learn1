@@ -236,6 +236,7 @@ body {
   font-family: Lato;
   font-size: 15px;
   margin: 0 15px 0 0;
+  cursor: pointer;
 }
 .menu__menu-item_active {
   color: #ada074;
@@ -248,6 +249,7 @@ body {
   font-size: 16px;
   text-align: center;
   padding-top: 14px;
+  cursor: pointer;
 }
 
 .parthers {
@@ -305,4 +307,59 @@ body {
   background-image: url("../../img/alex.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.header {
+  min-height: 1080px;
+  background-image: url("../../img/bg-header.png");
+  background-position: 0 -2px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-top: 1px solid black;
+}
+.header__logo {
+  width: 200px;
+  margin: 170px auto 0 auto;
+}
+.header__header {
+  margin: 160px auto 0 auto;
+  color: #fff;
+}
+.header__title {
+  font-size: 34px;
+  font-weight: 800;
+}
+.header__title_first:after {
+  content: none;
+}
+.header__title_second {
+  text-transform: none;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 0px 0px 50px 0px;
+}
+.header__title_second:after {
+  content: "";
+  position: absolute;
+  width: 105px;
+  bottom: 0;
+  height: 1px;
+  left: 50%;
+  background-color: #fff;
+  margin: 0px 0px 0px -53px;
+}
+.header__button {
+  border: 1px solid #fff;
+  margin: 220px auto 0 auto;
+  color: #fff;
+}
+.header__arrow {
+  width: 17px;
+  margin: 70px auto 0 auto;
+}
+.header__menu {
+  margin: 140px auto 0px auto;
+  max-width: 420px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 22px;
 }

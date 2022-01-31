@@ -23,6 +23,11 @@ body{
 
 .wrapper {
 	/*border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100%;
+	overflow: hidden;
 }
 
 .container {
@@ -35,6 +40,7 @@ body{
 	width: 100%;
 	background-color: rgb(68,81,98);
 	border: 1px solid rgb(68,81,98);
+	flex: 0 0 auto;
 }
 .hello__row {
 	max-width: 1170px;
@@ -73,4 +79,60 @@ body{
 	flex: 0 0 270px;
 	/*border: 1px solid red;*/
 }
+
+.whatis {
+	min-height: 288px;
+	width: 100%;
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(255,255,255);
+	flex: 1 0 auto;
+}
+
+.whatis__row {
+	display: flex;
+	margin: 45px;
+
+}
+.whatis__image {
+	flex: 0 1 430px;
+
+}
+.whatis_text {
+	flex: 1 1 auto;
+}
+.whatis__title {
+	color: rgb(68,81,98);
+	font-size: 30px;
+
+}
+.whatis__body {
+	font-size: 16px;
+	color: rgb(73,73,73);
+	line-height: 23px;
+	max-width: 645px;
+}
+
+.whatis__body p {
+	margin-top: 36px;
+}
+
+.footer {
+	background-color: rgb(248,248,248);
+}
+
+.footer__row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 65px;
+}
+
+.footer__text {
+	flex: 0 0 auto;
+	color: #445162;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+
 

@@ -154,7 +154,9 @@ body{
 .columns__row {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 1180px;
 	/*margin: 0px -8px;*/
+	margin: 45px;
 }
 
 .columns__item {
@@ -208,20 +210,28 @@ body{
 .vertical__row {
 	display: flex;
 	justify-content: space-between;
+	/*border: 1px solid green;*/
+
 }
 .vertical__column{
 	flex: 0 1 298px;
-	border-radius: 5px;
-	background-color: rgb(68,81,98);
-	border: 1px solid rgb(68,81,98);
-	padding-bottom: 20px;
+	/*border-radius: 5px;*/
+	/*padding-bottom: 20px;*/
+	/*border: 1px solid red;*/
+
 }
 .vertical__column_1 {
-
+	/*align-self: flex-start;*/
 }
 .vertical__item {
 	display: flex;
 	flex-direction: column;
+	border: 1px solid rgb(68,81,98);
+	justify-content: flex-end;
+	background-color: rgb(68,81,98);
+	border-radius: 5px;
+	height: 100%;
+	padding-bottom: 20px;
 }
 .vertical__title {
 	background-color: rgb(68,81,98);
@@ -238,6 +248,7 @@ body{
 	text-align: center;
 	line-height: 60px;
 }
+
 .vertical__text {
 	background-color: rgb(68,81,98);
 	font-size: 14px;
@@ -247,11 +258,20 @@ body{
 	padding: 20px;
 	font-weight: 500;
 	flex: 1 1 auto;
+	/*border: 1px solid red;*/
+
 }
+
 
 .vertical__text p{
 	margin: 0px 0px 15px 0px;
 }
+
+.vertical__text p:last-child{
+	margin: 0;
+}
+
+
 .vertical__btn {
 	background-color: #fff;
 	font-size: 18px;
@@ -262,13 +282,18 @@ body{
 	text-align: center;
 	line-height: 40px;
 	display: block;
+	flex: 0 0 auto;
 	margin: 0px 20px;
+	cursor: pointer;
 }
+
 .vertical__column_2 {
 
 }
 
-.vertical__column_3 {}
+.vertical__column_3 {
+	/*align-self: flex-end;*/
+}
 
 
 
